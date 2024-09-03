@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+form{
+    width: 400px;
+    background: #F5F1EB;
+    padding: 30px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 4px;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    box-shadow: 7px 13px 37px black;
+}
+
+.comprar{
+    width: 100%;
+    background: #F5F1EB;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #386641;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 19px;
+    color: black;
+}
+.comprar:hover {
+    transform: scale(1.1);
+  }
+  
+
+input{
+    width: 100%;
+    background: #F5F1EB;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #386641;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 19px;
+    color: black;
+}
+
+
+.id-pedido{
+    text-align: center;
+
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    font-size: 20px;
+}

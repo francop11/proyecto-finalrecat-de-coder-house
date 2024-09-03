@@ -1,0 +1,49 @@
+.navbar-brand {
+    background-color: #012622 !important;
+    color: white !important;
+    
+    
+    
+   
+  }
+  .navbar {
+    background-color: #012622 !important;
+
+  }
+  
+  .nav-link  {
+    font-family: "Protest Riot", sans-serif;
+    color: white !important;
+    background-color:#012622 ;
+    margin-left: 20px;
+  }
+  
+  .nav-link {
+    border-bottom: 3p solid white;
+    transition: 0.5s;
+    color: white;
+  }
+  
+  .navbar-collapse {
+    font-family: "Protest Riot", sans-serif;
+    font-size: 19px;
+    background-color: #012622;
+  }
+  
+  .navbar-collapse :hover {
+    border-bottom: 3p solid #012622;
+    transition: 0.3s;
+  }
+  
+  .navbar-collapse a:hover {
+  
+    border-bottom: 1px solid #012622;
+  }
+  
+  .navbar-collapse a {
+    color: black;
+  }
+
+  img{
+    border-radius: 50%;
+  }

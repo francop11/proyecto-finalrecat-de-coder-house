@@ -1,0 +1,46 @@
+
+.ItemCount{
+    display: flex;
+    margin-top: 80px;
+    text-align: center;
+    margin-left: 38%;
+    
+}
+
+.productos{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.restar{
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+
+.sumar{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+
+.sumar:hover{
+    background-color: springgreen;
+}
+
+.restar:hover{
+    background-color: springgreen;
+}
+
+.carritoCompras{
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+
+.carritoCompras:hover{
+    background-color: springgreen;
+}

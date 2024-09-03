@@ -1,0 +1,48 @@
+.pedido-container {
+    padding: 20px;
+    color: white;
+  }
+  
+  .pedido-container h2 {
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .pedido-container ul {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+  }
+  
+  .pedido-container li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    color: white;
+  }
+  
+  .pedido-container button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .pedido-container button:hover {
+    background-color: #e60000;
+  }
+  
+
+  .boton-comprar{
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .boton-comprar:hover {
+    background-color: #e60000;
+  }
+  
