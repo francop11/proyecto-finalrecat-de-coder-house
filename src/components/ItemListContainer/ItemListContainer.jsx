@@ -36,7 +36,7 @@ const ItemListConatiner=({greeting})=>{
                 setProductos(items);
             })
             .catch((error) => {
-                console.error("Error fetching products: ", error);
+                console.error( error);
             });
     }, [categoria]);
     

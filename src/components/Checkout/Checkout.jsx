@@ -4,6 +4,8 @@ import { useForm } from "react-hook-form"; // importamos useForm para manejar el
 import { collection, addDoc, doc, getDoc, updateDoc } from "firebase/firestore"; 
 import { db } from "../../firebase/config"; 
 import "./Checkout.css"; 
+import { Toaster, toast } from 'sonner'
+
 
 const Checkout = () => {
     // accedemos a las funciones y datos del carrito atravez del contexto
@@ -13,7 +15,7 @@ const Checkout = () => {
 
     // esta funcion se ejecuta cuando enviamos el formulario de compra
     const comprar = async (data) => {
-        console.log("Carrito:", JSON.stringify(carrito, null, 2)); // Imprimimos el carrito para depuración
+         
 
         // creamos un objeto con los datos del cliente
         const pedido = {
@@ -49,7 +51,8 @@ const Checkout = () => {
                         });
                     } else {
                         // si no ahi stock lanzamos el error
-                        throw new Error(`No hay suficiente stock para el producto ${item.nombre}`);
+                        toast.error(`Hubo un error al realizar la compra. Por favor, inténtalo nuevamente.  ${item.nombre}`)
+                       
                     }
                 })
             );
@@ -61,8 +64,8 @@ const Checkout = () => {
             borrarProductos(); //limpiamos el carrito despues de la compra
         } catch (error) {
         
-            console.log("Error al realizar la compra:", error);
-            alert("Hubo un error al realizar la compra. Por favor, inténtalo nuevamente.");
+            toast.error('Hubo un error al realizar la compra. Por favor, inténtalo nuevamente.')
+           
         }
     };
 

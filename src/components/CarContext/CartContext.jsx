@@ -45,7 +45,7 @@ export const ProvedorDeCarrito = ({ children }) => {
  const obtenerPrecioTotal = () => {
     return carrito.reduce((total, item) => total + (item.precio * item.cantidad), 0);
   };
-  console.log(carrito)
+  
 
 
  const totalProdcutosEnElCarrito=()=>{

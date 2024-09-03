@@ -1,8 +1,14 @@
-# React + Vite
+# Ecomerce House Gamer
+bienvenido a house gamer un proyecto realizado en react para simular una plataforma ecomerce de un sitio web de venta de celulares consolas y notebooks.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Clona el repositorio
+git clone https://github.com/francop11/proyecto-finalrecat-de-coder-house.git
 
-Currently, two official plugins are available:
+# Navega al directorio del proyecto
+cd proyectoEcomerce
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Instala las dependencias
+npm install
+
+# Inicia el servidor de desarrollo
+npm run dev
